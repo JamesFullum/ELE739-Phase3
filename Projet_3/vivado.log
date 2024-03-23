@@ -1,0 +1,1304 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Mar 22 15:52:40 2024
+# Process ID: 16768
+# Current directory: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21100 C:\Users\james\ETS\Hiver_2024\ELE739\ELE739-Projet_3\Projet_3\Projet_3.xpr
+# Log file: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/vivado.log
+# Journal file: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3\vivado.jou
+# Running On: LAPTOP-UPJBM0EE, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16541 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1481.824 ; gain = 121.289
+update_compile_order -fileset sources_1
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2267.008 ; gain = 398.848
+---------------------------------------------------------------------------------
+Clean up Linter database...
+ERROR: [Synth 8-36] 'i_sin_generateur' is not declared [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:59]
+INFO: [Synth 8-11252] unit 'rtl' is ignored due to previous errors [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:84]
+INFO: [Synth 8-10443] VHDL file 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd' is ignored due to errors
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2388.434 ; gain = 520.273
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2388.434 ; gain = 860.891
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2388.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-638] synthesizing module 'TB_Phase_3' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:37]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:117]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:125]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:137]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:141]
+	Parameter G_H_0_S bound to: 15 - type: integer 
+	Parameter G_H_1_S bound to: 15 - type: integer 
+	Parameter G_H_2_S bound to: 15 - type: integer 
+	Parameter G_H_3_S bound to: 15 - type: integer 
+	Parameter G_H_4_S bound to: -15 - type: integer 
+	Parameter G_H_5_S bound to: -15 - type: integer 
+	Parameter G_H_6_S bound to: -15 - type: integer 
+	Parameter G_H_7_S bound to: -15 - type: integer 
+	Parameter G_H_0_C bound to: 20 - type: integer 
+	Parameter G_H_1_C bound to: 20 - type: integer 
+	Parameter G_H_2_C bound to: 20 - type: integer 
+	Parameter G_H_3_C bound to: 20 - type: integer 
+	Parameter G_H_4_C bound to: -20 - type: integer 
+	Parameter G_H_5_C bound to: -20 - type: integer 
+	Parameter G_H_6_C bound to: -20 - type: integer 
+	Parameter G_H_7_C bound to: -20 - type: integer 
+INFO: [Synth 8-3491] module 'DUT' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:16' bound to instance 'DUT_INST' of component 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:55]
+	Parameter G_H_0_S bound to: 15 - type: integer 
+	Parameter G_H_1_S bound to: 15 - type: integer 
+	Parameter G_H_2_S bound to: 15 - type: integer 
+	Parameter G_H_3_S bound to: 15 - type: integer 
+	Parameter G_H_4_S bound to: -15 - type: integer 
+	Parameter G_H_5_S bound to: -15 - type: integer 
+	Parameter G_H_6_S bound to: -15 - type: integer 
+	Parameter G_H_7_S bound to: -15 - type: integer 
+	Parameter G_H_0_C bound to: 20 - type: integer 
+	Parameter G_H_1_C bound to: 20 - type: integer 
+	Parameter G_H_2_C bound to: 20 - type: integer 
+	Parameter G_H_3_C bound to: 20 - type: integer 
+	Parameter G_H_4_C bound to: -20 - type: integer 
+	Parameter G_H_5_C bound to: -20 - type: integer 
+	Parameter G_H_6_C bound to: -20 - type: integer 
+	Parameter G_H_7_C bound to: -20 - type: integer 
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+	Parameter G_H_0 bound to: 20 - type: integer 
+	Parameter G_H_1 bound to: 20 - type: integer 
+	Parameter G_H_2 bound to: 20 - type: integer 
+	Parameter G_H_3 bound to: 20 - type: integer 
+	Parameter G_H_4 bound to: -20 - type: integer 
+	Parameter G_H_5 bound to: -20 - type: integer 
+	Parameter G_H_6 bound to: -20 - type: integer 
+	Parameter G_H_7 bound to: -20 - type: integer 
+INFO: [Synth 8-3491] module 'FIR_COS' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:15' bound to instance 'FIR_COS_INST' of component 'FIR_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'FIR_COS' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:40]
+	Parameter G_H_0 bound to: 20 - type: integer 
+	Parameter G_H_1 bound to: 20 - type: integer 
+	Parameter G_H_2 bound to: 20 - type: integer 
+	Parameter G_H_3 bound to: 20 - type: integer 
+	Parameter G_H_4 bound to: -20 - type: integer 
+	Parameter G_H_5 bound to: -20 - type: integer 
+	Parameter G_H_6 bound to: -20 - type: integer 
+	Parameter G_H_7 bound to: -20 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element cos_int_reg[0] was removed.  [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'FIR_COS' (1#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:40]
+	Parameter G_H_0 bound to: 15 - type: integer 
+	Parameter G_H_1 bound to: 15 - type: integer 
+	Parameter G_H_2 bound to: 15 - type: integer 
+	Parameter G_H_3 bound to: 15 - type: integer 
+	Parameter G_H_4 bound to: -15 - type: integer 
+	Parameter G_H_5 bound to: -15 - type: integer 
+	Parameter G_H_6 bound to: -15 - type: integer 
+	Parameter G_H_7 bound to: -15 - type: integer 
+INFO: [Synth 8-3491] module 'FIR_Sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:15' bound to instance 'FIR_SIN_INST' of component 'FIR_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'FIR_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:41]
+	Parameter G_H_0 bound to: 15 - type: integer 
+	Parameter G_H_1 bound to: 15 - type: integer 
+	Parameter G_H_2 bound to: 15 - type: integer 
+	Parameter G_H_3 bound to: 15 - type: integer 
+	Parameter G_H_4 bound to: -15 - type: integer 
+	Parameter G_H_5 bound to: -15 - type: integer 
+	Parameter G_H_6 bound to: -15 - type: integer 
+	Parameter G_H_7 bound to: -15 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:116]
+WARNING: [Synth 8-614] signal 'sin_int' is read in the process but is not in the sensitivity list [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:114]
+WARNING: [Synth 8-614] signal 'h_int' is read in the process but is not in the sensitivity list [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'FIR_Sin' (2#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:41]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Gen_Cos' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:15' bound to instance 'Gen_Cos_INST' of component 'Gen_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'Gen_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Gen_Cos' (3#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:30]
+WARNING: [Synth 8-5640] Port 'i_fen' is missing in component declaration [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:118]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Gen_Sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:15' bound to instance 'Gen_Sin_INST' of component 'Gen_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:240]
+ERROR: [Synth 8-3493] module 'gen_sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:15' does not have matching formal port for component port 'i_mode' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:240]
+ERROR: [Synth 8-285] failed synthesizing module 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:55]
+ERROR: [Synth 8-285] failed synthesizing module 'TB_Phase_3' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:37]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2388.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 9 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2388.434 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2403.496 ; gain = 15.062
+---------------------------------------------------------------------------------
+Clean up Linter database...
+ERROR: [Synth 8-36] 'i_fen' is not declared [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:58]
+ERROR: [Synth 8-944] 0 definitions of operator "or" match here [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:58]
+INFO: [Synth 8-11252] unit 'rtl' is ignored due to previous errors [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:70]
+INFO: [Synth 8-10443] VHDL file 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd' is ignored due to errors
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2403.496 ; gain = 15.062
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2426.043 ; gain = 22.547
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-638] synthesizing module 'TB_Phase_3' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:37]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:117]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:125]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:137]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:141]
+	Parameter G_H_0_S bound to: 15 - type: integer 
+	Parameter G_H_1_S bound to: 15 - type: integer 
+	Parameter G_H_2_S bound to: 15 - type: integer 
+	Parameter G_H_3_S bound to: 15 - type: integer 
+	Parameter G_H_4_S bound to: -15 - type: integer 
+	Parameter G_H_5_S bound to: -15 - type: integer 
+	Parameter G_H_6_S bound to: -15 - type: integer 
+	Parameter G_H_7_S bound to: -15 - type: integer 
+	Parameter G_H_0_C bound to: 20 - type: integer 
+	Parameter G_H_1_C bound to: 20 - type: integer 
+	Parameter G_H_2_C bound to: 20 - type: integer 
+	Parameter G_H_3_C bound to: 20 - type: integer 
+	Parameter G_H_4_C bound to: -20 - type: integer 
+	Parameter G_H_5_C bound to: -20 - type: integer 
+	Parameter G_H_6_C bound to: -20 - type: integer 
+	Parameter G_H_7_C bound to: -20 - type: integer 
+INFO: [Synth 8-3491] module 'DUT' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:16' bound to instance 'DUT_INST' of component 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:55]
+	Parameter G_H_0_S bound to: 15 - type: integer 
+	Parameter G_H_1_S bound to: 15 - type: integer 
+	Parameter G_H_2_S bound to: 15 - type: integer 
+	Parameter G_H_3_S bound to: 15 - type: integer 
+	Parameter G_H_4_S bound to: -15 - type: integer 
+	Parameter G_H_5_S bound to: -15 - type: integer 
+	Parameter G_H_6_S bound to: -15 - type: integer 
+	Parameter G_H_7_S bound to: -15 - type: integer 
+	Parameter G_H_0_C bound to: 20 - type: integer 
+	Parameter G_H_1_C bound to: 20 - type: integer 
+	Parameter G_H_2_C bound to: 20 - type: integer 
+	Parameter G_H_3_C bound to: 20 - type: integer 
+	Parameter G_H_4_C bound to: -20 - type: integer 
+	Parameter G_H_5_C bound to: -20 - type: integer 
+	Parameter G_H_6_C bound to: -20 - type: integer 
+	Parameter G_H_7_C bound to: -20 - type: integer 
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+	Parameter G_H_0 bound to: 20 - type: integer 
+	Parameter G_H_1 bound to: 20 - type: integer 
+	Parameter G_H_2 bound to: 20 - type: integer 
+	Parameter G_H_3 bound to: 20 - type: integer 
+	Parameter G_H_4 bound to: -20 - type: integer 
+	Parameter G_H_5 bound to: -20 - type: integer 
+	Parameter G_H_6 bound to: -20 - type: integer 
+	Parameter G_H_7 bound to: -20 - type: integer 
+INFO: [Synth 8-3491] module 'FIR_COS' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:15' bound to instance 'FIR_COS_INST' of component 'FIR_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'FIR_COS' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:40]
+	Parameter G_H_0 bound to: 20 - type: integer 
+	Parameter G_H_1 bound to: 20 - type: integer 
+	Parameter G_H_2 bound to: 20 - type: integer 
+	Parameter G_H_3 bound to: 20 - type: integer 
+	Parameter G_H_4 bound to: -20 - type: integer 
+	Parameter G_H_5 bound to: -20 - type: integer 
+	Parameter G_H_6 bound to: -20 - type: integer 
+	Parameter G_H_7 bound to: -20 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element cos_int_reg[0] was removed.  [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'FIR_COS' (1#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:40]
+	Parameter G_H_0 bound to: 15 - type: integer 
+	Parameter G_H_1 bound to: 15 - type: integer 
+	Parameter G_H_2 bound to: 15 - type: integer 
+	Parameter G_H_3 bound to: 15 - type: integer 
+	Parameter G_H_4 bound to: -15 - type: integer 
+	Parameter G_H_5 bound to: -15 - type: integer 
+	Parameter G_H_6 bound to: -15 - type: integer 
+	Parameter G_H_7 bound to: -15 - type: integer 
+INFO: [Synth 8-3491] module 'FIR_Sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:15' bound to instance 'FIR_SIN_INST' of component 'FIR_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'FIR_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:41]
+	Parameter G_H_0 bound to: 15 - type: integer 
+	Parameter G_H_1 bound to: 15 - type: integer 
+	Parameter G_H_2 bound to: 15 - type: integer 
+	Parameter G_H_3 bound to: 15 - type: integer 
+	Parameter G_H_4 bound to: -15 - type: integer 
+	Parameter G_H_5 bound to: -15 - type: integer 
+	Parameter G_H_6 bound to: -15 - type: integer 
+	Parameter G_H_7 bound to: -15 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:116]
+WARNING: [Synth 8-614] signal 'sin_int' is read in the process but is not in the sensitivity list [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:114]
+WARNING: [Synth 8-614] signal 'h_int' is read in the process but is not in the sensitivity list [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'FIR_Sin' (2#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:41]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Gen_Cos' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:15' bound to instance 'Gen_Cos_INST' of component 'Gen_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'Gen_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Gen_Cos' (3#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Gen_Sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:15' bound to instance 'Gen_Sin_INST' of component 'Gen_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'Gen_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Gen_Sin' (4#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:30]
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Mux' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:15' bound to instance 'Mux_INST' of component 'Mux' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'Mux' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:34]
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Mux' (5#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:34]
+INFO: [Synth 8-3491] module 'MMCM' declared at 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.v:69' bound to instance 'MMCM_INST' of component 'MMCM' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:272]
+INFO: [Synth 8-6157] synthesizing module 'MMCM' [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.v:69]
+INFO: [Synth 8-6157] synthesizing module 'MMCM_clk_wiz' [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:71768]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (6#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:71768]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 80 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (7#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (8#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'MMCM_clk_wiz' (9#1) [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'MMCM' (10#1) [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.v:69]
+INFO: [Synth 8-256] done synthesizing module 'DUT' (11#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'TB_Phase_3' (12#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:37]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2426.043 ; gain = 22.547
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Fri Mar 22 16:01:50 2024
+| Host         : LAPTOP-UPJBM0EE running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+--------------+----------+
+| Rule ID  | # Violations | # Waived |
++----------+--------------+----------+
+| ASSIGN-5 | 6            | 0        |
+| ASSIGN-6 | 17           | 0        |
++----------+--------------+----------+
+
+
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'locked' was assigned but not read. 
+RTL Name 'locked', Hierarchy 'DUT', File 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd', Line 173.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk_in2_MMCM' declared and are not set.
+RTL Name 'clk_in2_MMCM', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 83.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk_out3_MMCM' declared and are not set.
+RTL Name 'clk_out3_MMCM', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 100.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk_out4_MMCM' declared and are not set.
+RTL Name 'clk_out4_MMCM', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 101.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk_out5_MMCM' declared and are not set.
+RTL Name 'clk_out5_MMCM', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 102.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk_out6_MMCM' declared and are not set.
+RTL Name 'clk_out6_MMCM', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 103.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'clk_out7_MMCM' declared and are not set.
+RTL Name 'clk_out7_MMCM', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 104.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkfboutb_unused' was assigned but not read. 
+RTL Name 'clkfboutb_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 112.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkfbstopped_unused' was assigned but not read. 
+RTL Name 'clkfbstopped_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 122.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkinstopped_unused' was assigned but not read. 
+RTL Name 'clkinstopped_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 123.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout0b_unused' was assigned but not read. 
+RTL Name 'clkout0b_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 113.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout1b_unused' was assigned but not read. 
+RTL Name 'clkout1b_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 114.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout2_unused' was assigned but not read. 
+RTL Name 'clkout2_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 115.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout2b_unused' was assigned but not read. 
+RTL Name 'clkout2b_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 116.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout3_unused' was assigned but not read. 
+RTL Name 'clkout3_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 117.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout3b_unused' was assigned but not read. 
+RTL Name 'clkout3b_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 118.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout4_unused' was assigned but not read. 
+RTL Name 'clkout4_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 119.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout5_unused' was assigned but not read. 
+RTL Name 'clkout5_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 120.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'clkout6_unused' was assigned but not read. 
+RTL Name 'clkout6_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 121.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'do_unused' was assigned but not read. 
+RTL Name 'do_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 106.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'drdy_unused' was assigned but not read. 
+RTL Name 'drdy_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 107.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'psdone_unused' was assigned but not read. 
+RTL Name 'psdone_unused', Hierarchy 'MMCM_clk_wiz', File 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v', Line 108.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'BUS_SORTIE' was assigned but not read. 
+RTL Name 'BUS_SORTIE', Hierarchy 'TB_Phase_3', File 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd', Line 107.
+INFO: [Synth 37-85] Total of 23 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2428.918 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. DUT_INST/MMCM_INST/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_board.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_board.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TB_Phase_3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TB_Phase_3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.578 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 52 Warnings, 20 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2532.578 ; gain = 129.082
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: TB_Phase_3
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2532.578 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TB_Phase_3' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:37]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:117]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:125]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:137]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:141]
+	Parameter G_H_0_S bound to: 15 - type: integer 
+	Parameter G_H_1_S bound to: 15 - type: integer 
+	Parameter G_H_2_S bound to: 15 - type: integer 
+	Parameter G_H_3_S bound to: 15 - type: integer 
+	Parameter G_H_4_S bound to: -15 - type: integer 
+	Parameter G_H_5_S bound to: -15 - type: integer 
+	Parameter G_H_6_S bound to: -15 - type: integer 
+	Parameter G_H_7_S bound to: -15 - type: integer 
+	Parameter G_H_0_C bound to: 20 - type: integer 
+	Parameter G_H_1_C bound to: 20 - type: integer 
+	Parameter G_H_2_C bound to: 20 - type: integer 
+	Parameter G_H_3_C bound to: 20 - type: integer 
+	Parameter G_H_4_C bound to: -20 - type: integer 
+	Parameter G_H_5_C bound to: -20 - type: integer 
+	Parameter G_H_6_C bound to: -20 - type: integer 
+	Parameter G_H_7_C bound to: -20 - type: integer 
+INFO: [Synth 8-3491] module 'DUT' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:16' bound to instance 'DUT_INST' of component 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'DUT' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:55]
+	Parameter G_H_0_S bound to: 15 - type: integer 
+	Parameter G_H_1_S bound to: 15 - type: integer 
+	Parameter G_H_2_S bound to: 15 - type: integer 
+	Parameter G_H_3_S bound to: 15 - type: integer 
+	Parameter G_H_4_S bound to: -15 - type: integer 
+	Parameter G_H_5_S bound to: -15 - type: integer 
+	Parameter G_H_6_S bound to: -15 - type: integer 
+	Parameter G_H_7_S bound to: -15 - type: integer 
+	Parameter G_H_0_C bound to: 20 - type: integer 
+	Parameter G_H_1_C bound to: 20 - type: integer 
+	Parameter G_H_2_C bound to: 20 - type: integer 
+	Parameter G_H_3_C bound to: 20 - type: integer 
+	Parameter G_H_4_C bound to: -20 - type: integer 
+	Parameter G_H_5_C bound to: -20 - type: integer 
+	Parameter G_H_6_C bound to: -20 - type: integer 
+	Parameter G_H_7_C bound to: -20 - type: integer 
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+	Parameter G_H_0 bound to: 20 - type: integer 
+	Parameter G_H_1 bound to: 20 - type: integer 
+	Parameter G_H_2 bound to: 20 - type: integer 
+	Parameter G_H_3 bound to: 20 - type: integer 
+	Parameter G_H_4 bound to: -20 - type: integer 
+	Parameter G_H_5 bound to: -20 - type: integer 
+	Parameter G_H_6 bound to: -20 - type: integer 
+	Parameter G_H_7 bound to: -20 - type: integer 
+INFO: [Synth 8-3491] module 'FIR_COS' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:15' bound to instance 'FIR_COS_INST' of component 'FIR_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'FIR_COS' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:40]
+	Parameter G_H_0 bound to: 20 - type: integer 
+	Parameter G_H_1 bound to: 20 - type: integer 
+	Parameter G_H_2 bound to: 20 - type: integer 
+	Parameter G_H_3 bound to: 20 - type: integer 
+	Parameter G_H_4 bound to: -20 - type: integer 
+	Parameter G_H_5 bound to: -20 - type: integer 
+	Parameter G_H_6 bound to: -20 - type: integer 
+	Parameter G_H_7 bound to: -20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIR_COS' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:40]
+	Parameter G_H_0 bound to: 15 - type: integer 
+	Parameter G_H_1 bound to: 15 - type: integer 
+	Parameter G_H_2 bound to: 15 - type: integer 
+	Parameter G_H_3 bound to: 15 - type: integer 
+	Parameter G_H_4 bound to: -15 - type: integer 
+	Parameter G_H_5 bound to: -15 - type: integer 
+	Parameter G_H_6 bound to: -15 - type: integer 
+	Parameter G_H_7 bound to: -15 - type: integer 
+INFO: [Synth 8-3491] module 'FIR_Sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:15' bound to instance 'FIR_SIN_INST' of component 'FIR_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'FIR_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:41]
+	Parameter G_H_0 bound to: 15 - type: integer 
+	Parameter G_H_1 bound to: 15 - type: integer 
+	Parameter G_H_2 bound to: 15 - type: integer 
+	Parameter G_H_3 bound to: 15 - type: integer 
+	Parameter G_H_4 bound to: -15 - type: integer 
+	Parameter G_H_5 bound to: -15 - type: integer 
+	Parameter G_H_6 bound to: -15 - type: integer 
+	Parameter G_H_7 bound to: -15 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:116]
+WARNING: [Synth 8-614] signal 'sin_int' is read in the process but is not in the sensitivity list [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:114]
+WARNING: [Synth 8-614] signal 'h_int' is read in the process but is not in the sensitivity list [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'FIR_Sin' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_Sin.vhd:41]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Gen_Cos' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:15' bound to instance 'Gen_Cos_INST' of component 'Gen_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'Gen_Cos' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Gen_Cos' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Gen_Sin' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:15' bound to instance 'Gen_Sin_INST' of component 'Gen_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'Gen_Sin' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:30]
+	Parameter NB_ECHANTILLON bound to: 16 - type: integer 
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Gen_Sin' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd:30]
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Mux' declared at 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:15' bound to instance 'Mux_INST' of component 'Mux' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'Mux' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:34]
+	Parameter BIT_WIDTH bound to: 8 - type: integer 
+	Parameter BUS_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Mux' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd:34]
+INFO: [Synth 8-3491] module 'MMCM' declared at 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.v:69' bound to instance 'MMCM_INST' of component 'MMCM' [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:272]
+INFO: [Synth 8-6157] synthesizing module 'MMCM' [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.v:69]
+INFO: [Synth 8-6157] synthesizing module 'MMCM_clk_wiz' [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:71768]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:71768]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 80 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'MMCM_clk_wiz' (0#1) [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'MMCM' (0#1) [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.v:69]
+INFO: [Synth 8-256] done synthesizing module 'DUT' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'TB_Phase_3' (0#1) [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd:37]
+WARNING: [Synth 8-6014] Unused sequential element cos_int_reg[0] was removed.  [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd:81]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2532.578 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2532.578 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2532.578 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2532.578 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-549] Could not create 'IBUF_LOW_PWR' constraint because cell 'DUT_INST/MMCM_INST/inst/clkin1_ibufg' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved inside the database. [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_clk_wiz.v:84]
+Resolution: It is recommended to apply the I/O constraint directly to the top level port instead of applying the constraint to the cell connected to the port.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_board.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_board.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc] for cell 'DUT_INST/MMCM_INST/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TB_Phase_3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TB_Phase_3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2559.551 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2590.418 ; gain = 57.840
+37 Infos, 29 Warnings, 20 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2590.418 ; gain = 57.840
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Phase_3' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_Phase_3_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj TB_Phase_3_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DUT'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gen_Cos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gen_Sin'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity xil_defaultlib.FIR_COS [\FIR_COS(g_h_0=20,g_h_1=20,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.FIR_Sin [\FIR_Sin(g_h_0=15,g_h_1=15,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Cos [gen_cos_default]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Sin [gen_sin_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux [mux_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.MMCM_clk_wiz
+Compiling module xil_defaultlib.MMCM
+Compiling architecture rtl of entity xil_defaultlib.DUT [\DUT(g_h_0_s=15,g_h_1_s=15,g_h_2...]
+Compiling architecture testbench of entity xil_defaultlib.tb_phase_3
+Built simulation snapshot TB_Phase_3_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Phase_3_behav -key {Behavioral:sim_1:Functional:TB_Phase_3} -tclbatch {TB_Phase_3.tcl} -view {C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/TB_Phase_3_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/TB_Phase_3_behav.wcfg
+source TB_Phase_3.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Phase_3_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2652.105 ; gain = 45.582
+run 1 ms
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+current_wave_config {TB_Phase_3_behav.wcfg}
+TB_Phase_3_behav.wcfg
+add_wave {{/TB_Phase_3/DUT_INST/Gen_Cos_INST}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Phase_3' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_Phase_3_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj TB_Phase_3_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gen_Cos'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity xil_defaultlib.FIR_COS [\FIR_COS(g_h_0=20,g_h_1=20,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.FIR_Sin [\FIR_Sin(g_h_0=15,g_h_1=15,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Cos [gen_cos_default]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Sin [gen_sin_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux [mux_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.MMCM_clk_wiz
+Compiling module xil_defaultlib.MMCM
+Compiling architecture rtl of entity xil_defaultlib.DUT [\DUT(g_h_0_s=15,g_h_1_s=15,g_h_2...]
+Compiling architecture testbench of entity xil_defaultlib.tb_phase_3
+Built simulation snapshot TB_Phase_3_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3369.461 ; gain = 0.000
+run 1 ms
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_Phase_3_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj TB_Phase_3_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DUT'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity xil_defaultlib.FIR_COS [\FIR_COS(g_h_0=20,g_h_1=20,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.FIR_Sin [\FIR_Sin(g_h_0=15,g_h_1=15,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Cos [gen_cos_default]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Sin [gen_sin_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux [mux_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.MMCM_clk_wiz
+Compiling module xil_defaultlib.MMCM
+Compiling architecture rtl of entity xil_defaultlib.DUT [\DUT(g_h_0_s=15,g_h_1_s=15,g_h_2...]
+Compiling architecture testbench of entity xil_defaultlib.tb_phase_3
+Built simulation snapshot TB_Phase_3_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3728.445 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TB_Phase_3_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj TB_Phase_3_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TB_Phase_3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3728.445 ; gain = 0.000
+run all
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance TB_Phase_3.DUT_INST.MMCM_INST.inst.mmcm_adv_inst 
+import_files -norecurse C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_2/Projet_2/Projet_2.srcs/sources_1/new/Top_Exp.vhd
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {4} \
+  CONFIG.C_PROBE3_WIDTH {16} \
+] [get_ips ila_0]
+generate_target {instantiation_template} [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs ila_0_synth_1 -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+[Fri Mar 22 16:19:12 2024] Launched ila_0_synth_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property CONFIG.C_NUM_OF_PROBES {3} [get_ips ila_0]
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+INFO: [Vivado 12-23855] The given sub-design is auto disabled, no action will be taken: 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci'
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list \
+  CONFIG.C_PROBE1_WIDTH {2} \
+  CONFIG.C_PROBE2_WIDTH {16} \
+] [get_ips ila_0]
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+INFO: [Vivado 12-23855] The given sub-design is auto disabled, no action will be taken: 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci'
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property top Top_Exp [current_fileset]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 16
+[Fri Mar 22 16:23:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/synth_1/runme.log
+[Fri Mar 22 16:23:42 2024] Launched impl_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri Mar 22 16:25:33 2024] Launched synth_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/synth_1/runme.log
+close [ open C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT_Exp.vhd w ]
+add_files C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT_Exp.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/new/Top_Exp.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/new/Top_Exp.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property top DUT_Exp [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 16
+[Fri Mar 22 16:38:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/synth_1/runme.log
+[Fri Mar 22 16:38:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 16
+[Fri Mar 22 16:42:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs ila_0_synth_1 -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+[Fri Mar 22 16:43:30 2024] Launched ila_0_synth_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/synth_1/DUT_Exp.dcp to C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -jobs 16
+[Fri Mar 22 16:48:34 2024] Launched synth_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/synth_1/runme.log
+[Fri Mar 22 16:48:34 2024] Launched impl_1...
+Run output will be captured here: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 3728.445 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 107 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.270 . Memory (MB): peak = 3728.445 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.270 . Memory (MB): peak = 3728.445 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3728.445 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 50 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 44 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3728.445 ; gain = 0.000
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_0.dcp' for cell 'ILA_INST'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 3728.445 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 89 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ILA_INST UUID: f9000ef8-a314-5418-af43-dde76f8f151b 
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_board.xdc] for cell 'MMCM_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_board.xdc] for cell 'MMCM_INST/inst'
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc] for cell 'MMCM_INST/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc:57]
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc] for cell 'MMCM_INST/inst'
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ILA_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ILA_INST/inst'
+Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA_INST/inst'
+Finished Parsing XDC File [c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA_INST/inst'
+Parsing XDC File [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3822.773 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 44 instances
+
+current_design impl_1

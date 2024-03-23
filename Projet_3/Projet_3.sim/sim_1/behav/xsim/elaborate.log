@@ -1,0 +1,30 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Phase_3_behav xil_defaultlib.TB_Phase_3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity xil_defaultlib.FIR_COS [\FIR_COS(g_h_0=20,g_h_1=20,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.FIR_Sin [\FIR_Sin(g_h_0=15,g_h_1=15,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Cos [gen_cos_default]
+Compiling architecture rtl of entity xil_defaultlib.Gen_Sin [gen_sin_default]
+Compiling architecture rtl of entity xil_defaultlib.Mux [mux_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.MMCM_clk_wiz
+Compiling module xil_defaultlib.MMCM
+Compiling architecture rtl of entity xil_defaultlib.DUT [\DUT(g_h_0_s=15,g_h_1_s=15,g_h_2...]
+Compiling architecture testbench of entity xil_defaultlib.tb_phase_3
+Built simulation snapshot TB_Phase_3_behav

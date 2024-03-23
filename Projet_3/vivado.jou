@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Mar 22 15:52:40 2024
+# Process ID: 16768
+# Current directory: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21100 C:\Users\james\ETS\Hiver_2024\ELE739\ELE739-Projet_3\Projet_3\Projet_3.xpr
+# Log file: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/vivado.log
+# Journal file: C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3\vivado.jou
+# Running On: LAPTOP-UPJBM0EE, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16541 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.xpr
+update_compile_order -fileset sources_1
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+synth_design -top TB_Phase_3 -part xc7a35tcpg236-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+open_wave_config C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/TB_Phase_3_behav.wcfg
+source TB_Phase_3.tcl
+run 1 ms
+current_wave_config {TB_Phase_3_behav.wcfg}
+add_wave {{/TB_Phase_3/DUT_INST/Gen_Cos_INST}} 
+relaunch_sim
+run 1 ms
+relaunch_sim
+relaunch_sim
+run all
+import_files -norecurse C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_2/Projet_2/Projet_2.srcs/sources_1/new/Top_Exp.vhd
+update_compile_order -fileset sources_1
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list \
+  CONFIG.C_NUM_OF_PROBES {4} \
+  CONFIG.C_PROBE3_WIDTH {16} \
+] [get_ips ila_0]
+generate_target {instantiation_template} [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs ila_0_synth_1 -jobs 16
+wait_on_run ila_0_synth_1
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property CONFIG.C_NUM_OF_PROBES {3} [get_ips ila_0]
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list \
+  CONFIG.C_PROBE1_WIDTH {2} \
+  CONFIG.C_PROBE2_WIDTH {16} \
+] [get_ips ila_0]
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Top_Exp [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close [ open C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT_Exp.vhd w ]
+add_files C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/DUT_Exp.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/new/Top_Exp.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/new/Top_Exp.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DUT_Exp [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+generate_target all [get_files  c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs ila_0_synth_1 -jobs 16
+wait_on_run ila_0_synth_1
+export_simulation -of_objects [get_files c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files -ipstatic_source_dir C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/modelsim} {questa=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/questa} {riviera=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/riviera} {activehdl=C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+open_run impl_1
+open_run synth_1 -name synth_1
+current_design impl_1

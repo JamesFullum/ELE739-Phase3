@@ -1,0 +1,41 @@
+Signaux
+	- Reset Global et RESET_G
+	- BUS_SORTIE est encore utilisé
+
+DESIGN
+2 Domaines d'horloge
+	- 100 MHz et 12.5 MHz
+
+Generateur de signal (James)
+	- Sinus a place de Cosinus
+	- Alimenter 12.5 MHz
+
+Ajout d'un filtre FIR (Guillaume)
+	- 12.5 MHz pour quelques bascules, 100 MHz pour le reste
+	- 8 étages
+	- Format MAC a place de Direct
+	- Prend encore le f_en
+	- connecter au sinus
+
+MMCM (James)
+	- 100 MHz in -> 12.5 MHz et 100 MHz out
+
+Mux (James)
+	- Contient encore les deux modes Cos et Cos_filtré
+	- 2 switchs
+		- Cos vs Sin
+		- Filtré vs Non-Filtré
+	- 4 modes
+		- Sinus
+		- Sinus filtré
+		- Cosinus
+		- Cosinus filtré
+
+DEMO
+	- "il faut absolument voir les résultats intermédiaires à la sortie du multiplicateur-accumulateur"
+
+QUESTIONS
+	- Est-ce que le MMCM est instantié dans le Mux, ou est-ce qu'ils sont deux modules différents?
+	- Est-ce que vous attendiez de voir les valeurs de ACC(N2) et MULT(N2) comme les valeurs intermédiaires, ou est-ce qu'il nous en faut plus?
+	- Clk1 et Clk2 sont 100MHz et 12.5MHz respectivement?
+	- 

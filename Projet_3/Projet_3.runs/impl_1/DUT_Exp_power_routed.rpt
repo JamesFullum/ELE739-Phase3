@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Fri Mar 22 16:51:17 2024
+| Date             : Sat Mar 23 20:23:52 2024
 | Host             : LAPTOP-UPJBM0EE running 64-bit major release  (build 9200)
 | Command          : report_power -file DUT_Exp_power_routed.rpt -pb DUT_Exp_power_summary_routed.pb -rpx DUT_Exp_power_routed.rpx
 | Design           : DUT_Exp
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.003 |        7 |       --- |             --- |
-| Slice Logic              |    <0.001 |     3909 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |     1142 |     20800 |            5.49 |
+| Slice Logic              |    <0.001 |     3908 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |     1140 |     20800 |            5.48 |
 |   CARRY4                 |    <0.001 |       41 |      8150 |            0.50 |
-|   Register               |    <0.001 |     2075 |     41600 |            4.99 |
+|   Register               |    <0.001 |     2077 |     41600 |            4.99 |
 |   LUT as Shift Register  |    <0.001 |       85 |      9600 |            0.89 |
-|   LUT as Distributed RAM |    <0.001 |       24 |      9600 |            0.25 |
 |   F7/F8 Muxes            |    <0.001 |        6 |     32600 |            0.02 |
-|   Others                 |     0.000 |      237 |       --- |             --- |
-| Signals                  |    <0.001 |     3510 |       --- |             --- |
+|   LUT as Distributed RAM |    <0.001 |       24 |      9600 |            0.25 |
+|   Others                 |     0.000 |      236 |       --- |             --- |
+| Signals                  |    <0.001 |     3511 |       --- |             --- |
 | Block RAM                |    <0.001 |        1 |        50 |            2.00 |
 | MMCM                     |     0.106 |        1 |         5 |           20.00 |
 | DSPs                     |    <0.001 |        8 |        90 |            8.89 |
@@ -77,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.015 |       0.006 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.016 |       0.006 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.071 |       0.059 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -151,6 +151,7 @@ Table of Contents
 | Name                     | Power (W) |
 +--------------------------+-----------+
 | DUT_Exp                  |     0.114 |
+|   FIR_SIN_INST           |     0.001 |
 |   ILA_INST               |     0.001 |
 |     inst                 |     0.001 |
 |       ila_core_inst      |     0.001 |

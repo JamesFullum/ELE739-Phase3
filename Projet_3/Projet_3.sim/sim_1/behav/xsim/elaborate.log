@@ -15,7 +15,7 @@ Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package vl.vl_types
 Compiling module xil_defaultlib.glbl
-Compiling architecture rtl of entity xil_defaultlib.FIR_COS [\FIR_COS(g_h_0=20,g_h_1=20,g_h_2...]
+Compiling architecture rtl of entity xil_defaultlib.FIR_COS [\FIR_COS(g_h_0=31,g_h_1=31,g_h_2...]
 Compiling architecture rtl of entity xil_defaultlib.FIR_Sin [\FIR_Sin(g_h_0=15,g_h_1=15,g_h_2...]
 Compiling architecture rtl of entity xil_defaultlib.Gen_Cos [gen_cos_default]
 Compiling architecture rtl of entity xil_defaultlib.Gen_Sin [gen_sin_default]

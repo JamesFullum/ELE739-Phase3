@@ -1,6 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/FIR_COS.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'FIR_COS'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Cos.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Gen_Cos'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/Gen_Sin.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Gen_Sin'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/imports/Projet_2_Apres_Demo/Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/new/TB_Phase_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_Phase_3'

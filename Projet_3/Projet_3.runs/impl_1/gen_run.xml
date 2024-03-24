@@ -1,63 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1711140514">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1711239703">
   <File Type="ROUTE-PWR" Name="DUT_Exp_power_routed.rpt"/>
   <File Type="PA-TCL" Name="DUT_Exp.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="DUT_Exp_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="DUT_Exp_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="DUT_Exp.msk"/>
-  <File Type="ROUTE-CLK" Name="DUT_Exp_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="DUT_Exp.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="DUT_Exp_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="DUT_Exp.bit"/>
-  <File Type="BG-DRC" Name="DUT_Exp.drc"/>
-  <File Type="BG-BGN" Name="DUT_Exp.bgn"/>
-  <File Type="BG-BIN" Name="DUT_Exp.bin"/>
-  <File Type="BITSTR-RBT" Name="DUT_Exp.rbt"/>
-  <File Type="BITSTR-NKY" Name="DUT_Exp.nky"/>
-  <File Type="BITSTR-BMM" Name="DUT_Exp_bd.bmm"/>
+  <File Type="OPT-RQA-PB" Name="DUT_Exp_rqa_opted.pb"/>
   <File Type="BITSTR-MMI" Name="DUT_Exp.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="DUT_Exp_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="DUT_Exp.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="DUT_Exp.ltx"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="DUT_Exp_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="DUT_Exp_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="DUT_Exp_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="DUT_Exp_opt.dcp"/>
   <File Type="OPT-DRC" Name="DUT_Exp_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="DUT_Exp.hwdef"/>
+  <File Type="PWROPT-DCP" Name="DUT_Exp_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="DUT_Exp_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="DUT_Exp_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="DUT_Exp_placed.dcp"/>
   <File Type="PLACE-IO" Name="DUT_Exp_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DUT_Exp_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="DUT_Exp_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="DUT_Exp_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="DUT_Exp_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DUT_Exp_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="DUT_Exp_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="DUT_Exp.bin"/>
+  <File Type="PLACE-TIMING" Name="DUT_Exp_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="DUT_Exp_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="DUT_Exp_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DUT_Exp_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="DUT_Exp.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DUT_Exp_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DUT_Exp_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="DUT_Exp_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="DUT_Exp.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="DUT_Exp_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="DUT_Exp_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="DUT_Exp_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="DUT_Exp_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="DUT_Exp_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="DUT_Exp_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="DUT_Exp_power_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="DUT_Exp_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="DUT_Exp_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="DUT_Exp_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DUT_Exp_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="DUT_Exp_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="DUT_Exp_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="DUT_Exp_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="DUT_Exp_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="DUT_Exp_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="DUT_Exp_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="DUT_Exp_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="DUT_Exp_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="DUT_Exp_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="DUT_Exp_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="DUT_Exp_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="DUT_Exp_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="DUT_Exp_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="DUT_Exp_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="DUT_Exp_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="DUT_Exp_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="DUT_Exp_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="DUT_Exp_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="DUT_Exp_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="DUT_Exp_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="DUT_Exp_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DUT_Exp_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DUT_Exp_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DUT_Exp_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="DUT_Exp_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="DUT_Exp.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="DUT_Exp_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="DUT_Exp_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DUT_Exp_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="DUT_Exp_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="DUT_Exp_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="DUT_Exp.nky"/>
+  <File Type="BITSTR-BMM" Name="DUT_Exp_bd.bmm"/>
   <File Type="PDI-FILE" Name="DUT_Exp.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="DUT_Exp_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="DUT_Exp_pld.pdi"/>
@@ -66,6 +73,13 @@
   <File Type="RNPI_FILE" Name="DUT_Exp.rnpi"/>
   <File Type="NPI_FILE" Name="DUT_Exp.npi"/>
   <File Type="RBD_FILE" Name="DUT_Exp.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="DUT_Exp.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="DUT_Exp.sysdef"/>
+  <File Type="BG-BGN" Name="DUT_Exp.bgn"/>
+  <File Type="BG-DRC" Name="DUT_Exp.drc"/>
+  <File Type="RDI-RDI" Name="DUT_Exp.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="DUT_Exp_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="DUT_Exp_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -175,7 +189,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
 </GenRun>

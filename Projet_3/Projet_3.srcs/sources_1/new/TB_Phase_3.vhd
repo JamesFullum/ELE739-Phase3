@@ -46,14 +46,14 @@ architecture Testbench of TB_Phase_3 is
   constant G_H_6_S : integer  := -15; 
   constant G_H_7_S : integer  := -15; 
   -- Coefficients du filtre FIR pour le cosinus
-  constant G_H_0_C : integer  := 20; 
-  constant G_H_1_C : integer  := 20; 
-  constant G_H_2_C : integer  := 20; 
-  constant G_H_3_C : integer  := 20; 
-  constant G_H_4_C : integer  := -20; 
-  constant G_H_5_C : integer  := -20; 
-  constant G_H_6_C : integer  := -20; 
-  constant G_H_7_C : integer  := -20; 
+  constant G_H_0_C : integer  := 31; 
+  constant G_H_1_C : integer  := 31; 
+  constant G_H_2_C : integer  := 31; 
+  constant G_H_3_C : integer  := 31; 
+  constant G_H_4_C : integer  := -31; 
+  constant G_H_5_C : integer  := -31; 
+  constant G_H_6_C : integer  := -31; 
+  constant G_H_7_C : integer  := -31; 
   -- Nombre d'échantillons a prendre
   constant NB_ECHANTILLON : positive := 16;
   -- Taille de la sortie du generateur de signal

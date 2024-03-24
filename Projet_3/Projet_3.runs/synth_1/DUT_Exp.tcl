@@ -71,8 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 4
-set_param synth.incrementalSynthesisCache C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/.Xil/Vivado-16768-LAPTOP-UPJBM0EE/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/james/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20220-LAPTOP-UPJBM0EE/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -104,7 +103,7 @@ set_property used_in_implementation false [get_files -all c:/Users/james/ETS/Hiv
 set_property used_in_implementation false [get_files -all c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/MMCM/MMCM_ooc.xdc]
 
-read_ip -quiet c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci
+read_ip -quiet C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci
 set_property used_in_synthesis false [get_files -all c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc]

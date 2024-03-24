@@ -84,6 +84,6 @@ begin
         end if;
     end process;    
     
-    mode_chng <= (mode_del(1) xor i_mode(1)) and (mode_del(0) xor i_mode(0));
+    mode_chng <= (mode_del(1) xor i_mode(1)) or (mode_del(0) xor i_mode(0));
       
 end rtl;

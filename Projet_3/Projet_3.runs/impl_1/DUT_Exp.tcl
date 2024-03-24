@@ -126,7 +126,7 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 4
-  set_param synth.incrementalSynthesisCache C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/.Xil/Vivado-16768-LAPTOP-UPJBM0EE/incrSyn
+  set_param synth.incrementalSynthesisCache C:/Users/james/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20220-LAPTOP-UPJBM0EE/incrSyn
   set_param runs.launchOptions { -jobs 16  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35tcpg236-1
@@ -143,7 +143,7 @@ OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.runs/synth_1/DUT_Exp.dcp
   read_ip -quiet C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/MMCM/MMCM.xci
-  read_ip -quiet c:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci
+  read_ip -quiet C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/sources_1/ip/ila_0/ila_0.xci
 OPTRACE "read constraints: implementation" START { }
   read_xdc C:/Users/james/ETS/Hiver_2024/ELE739/ELE739-Projet_3/Projet_3/Projet_3.srcs/constrs_1/imports/new/Basys_3.xdc
 OPTRACE "read constraints: implementation" END { }

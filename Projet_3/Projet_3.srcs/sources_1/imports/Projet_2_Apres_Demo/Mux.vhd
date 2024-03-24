@@ -36,6 +36,7 @@ architecture rtl of Mux is
     signal BUS_SORTIE_int : std_logic_vector(BUS_SIZE-1 downto 0);
     signal cos_fen_int    : std_logic;
     signal sin_fen_int    : std_logic;
+    signal mode_int       : std_logic_vector(1 downto 0);
 
 begin
     process(i_clk)
@@ -55,10 +56,23 @@ begin
         end if;
     end process;
     
-    process(i_mode, i_cos_filtre, i_cos_generateur,
+    process(i_clk)
+    begin
+        if rising_edge(i_clk) then
+            if RESET_G = '1' then
+                mode_int <= (others => '0');
+            else 
+                if i_cen = '1' then
+                    mode_int <= i_mode;
+                end if;
+            end if;
+        end if;
+    end process;
+    
+    process(mode_int, i_cos_filtre, i_cos_generateur,
     i_sin_filtre)
     begin
-        case i_mode is
+        case mode_int is
             when "00" =>
             -- Cosinus
                 BUS_SORTIE_int(15 downto 8) <= std_logic_vector(i_cos_generateur);
@@ -74,6 +88,10 @@ begin
             -- Sinus Filtré
                 BUS_SORTIE_int <= std_logic_vector(i_sin_filtre);
                 cos_fen_int <= '0';
+                sin_fen_int <= '1';
+            when "11" =>
+                BUS_SORTIE_int <= (others => '0');
+                cos_fen_int <= '1';
                 sin_fen_int <= '1';
             when others =>
                 BUS_SORTIE_int <= (others => '0');

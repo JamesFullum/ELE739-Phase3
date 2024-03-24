@@ -182,12 +182,16 @@ architecture rtl of DUT_Exp is
     signal cos_fen_int : std_logic;
     signal sin_fen_int : std_logic;
     
+    signal mode_int : std_logic_vector(1 downto 0);
+    
     signal locked : std_logic;
     
 begin
 
     RESET_G <= btnC;
     led     <= BUS_SORTIE;
+    
+    mode_int <= cos_fen_int & sin_fen_int;
 
     -- Instantiation du FIR pour le cosinus
     FIR_COS_INST : FIR_COS
@@ -242,7 +246,7 @@ begin
         port map(
             i_clk   => slow_clk_int,
             RESET_G => RESET_G,
-            i_mode  => sw,
+            i_mode  => mode_int,
             i_cen   => '1',
             o_cos   => cos_gen_int
         );
